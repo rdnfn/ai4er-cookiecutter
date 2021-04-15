@@ -1,8 +1,8 @@
-# NOTE: These requirements are used for developing code on the repo. 
+# NOTE: These requirements are used for developing code on the repo.
 # As a standard they include certain formatters and linters.
 
 # local package
--e ../.
+-e .
 
 # external requirements (mostly linters and formatters)
 flake8              # flake8 linter

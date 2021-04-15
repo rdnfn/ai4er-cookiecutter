@@ -28,12 +28,12 @@ format:
 
 ## Set up python interpreter environment and install basic dependencies
 env:
-@echo ">>> Creating virtual environment using venv python library."
+	@echo ">>> Creating virtual environment using venv python library."
 
-python3.9 -m venv env
-python3.9 -m pip install -r requirements/dev-requirements.txt
+	python3.9 -m venv env
+	python3.9 -m pip install -r requirements/dev-requirements.txt
 
-@echo ">>> New env created. Activate from project directory with:\nsource env/bin/activate"
+	@echo ">>> New env created. Activate from project directory with:\nsource env/bin/activate"
 
 
 ## Install and set up handy jupyter notebook extensions
