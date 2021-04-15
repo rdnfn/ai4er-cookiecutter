@@ -1,7 +1,7 @@
 # Notebooks
 ## Structure
 Exploratory notebooks for initial explorations go into the `notebooks/exploratory` folder.
-Polished work for reporting and demonstration purposes goes into `notebooks/reports`
+Polished work for demonstration purposes goes directly into this `notebooks/` folder.
 
 ## Naming convention
 We use the following naming convention for notebooks (inspired by [cookiecutter-datascience](https://drivendata.github.io/cookiecutter-data-science/#notebooks-are-for-exploration-and-communication))
